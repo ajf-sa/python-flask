@@ -11,8 +11,8 @@ services:
       #   - ./app/static/docs:/app/static/docs
       expose:
         - "80"   
-      # ports: 
-      #     - "80:80"                                                                                                         
+      ports: 
+          - "80:80"                                                                                                         
       container_name: pmh1
       hostname: pmh1
       restart: always
